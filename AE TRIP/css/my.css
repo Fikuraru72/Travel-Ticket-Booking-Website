@@ -1,0 +1,192 @@
+
+/*Slider&Navbar*/
+	.slider h3,
+	.nav-wrapper{
+		text-shadow: 3px 3px 5px rgba(0,0,0,1);	
+	}
+
+
+	.brand-logo{
+		margin-left: 15px;
+		font-family: "Georgia";
+	}
+
+	.lg {
+		border-radius: 30%;
+		margin-top: 0.5%;
+	}
+
+	.logo{
+		margin-top: 10%;
+		margin-bottom: -10%;
+		margin-right: : 25%;
+		opacity: 85%;
+		border-radius: 30%
+	}
+
+	.navbar-fixed {
+		position: absolute;
+	}
+
+	section{
+		padding: 20px 0;
+	}
+
+/*card panel*/
+	.card-panel
+	 {
+		border-radius: 5%;
+		isolation: isolate;
+	}
+
+	.tenkit{
+		font: times new roman;
+	}
+
+	.gal{
+		isolation: isolate;
+	}
+
+/*parallax*/
+	.parallax-container {
+		height:150px;
+		isolation: isolate;
+		}
+	.parallax img {
+		filter: opacity(70%);
+		}
+
+/*Destination*/
+	h4 {
+		font-size: 25px;
+		}
+	.dsn img {
+	width: 160px;
+	height: 240px;
+	border-radius: 10%;
+	cursor: pointer;
+		}
+
+	figure {
+	overflow: hidden;
+	margin: 0 10px;
+	height: 240px;
+	border-radius: 10%;
+		}
+
+	.image #zoom-In figure img {
+	transform: scale(1);
+	transition: 0.3s ease-in-out;
+	filter: opacity(70%);
+		}
+	.image #zoom-In figure:hover img {
+		transform: scale(1.5);
+		filter: opacity(100%);
+	}
+
+/*button*/
+	.btn{
+	width: 250px;
+	height: 80px;
+	background: none;
+	border: 4px solid;
+	color:  #2196f3  ;
+	font-weight: 700;
+	text-transform: uppercase;
+	cursor: pointer;
+	font-size: 16px;
+	position: relative;
+	word-spacing: -1px;
+	}
+
+	.btn::before,
+	.btn::after{
+		content: "";
+		position: absolute;
+		width: 14px;
+		height: 4px;
+		background:#90caf9;
+		transform: skewX(59deg);
+		transition: .5s linear;
+	}
+
+	.btn::before{
+		top: -4px;
+		left: 10%;	
+	}
+
+	.btn::after{
+		bottom: -4px;
+		right: 10%;
+	}
+
+	.btn:hover::before{
+		left: 80%;
+
+	}
+
+	.btn:hover::after{
+		right: 80%;
+	}
+
+	.book{
+	font-size: 26px;
+	}
+
+/*OurStory*/
+	.insta ul{
+	    display: flex;
+	}
+
+	.insta ul li a img{
+	    display: flex;
+	    height: 100px;
+	    width: 100px;
+	    border-radius: 100%;
+	    transition: .6s ease-in-out;
+	}
+
+	.insta ul li a img:hover{
+	    transform: scale(1.1);
+	}
+
+	.insta ul li{
+	    margin-right: 20px;
+	}
+
+	.insta ul li a{
+	    display: block;
+	    background-color: white;
+	    padding: 4px;
+	    border-radius: 100%;
+	}
+
+	.outer-layer{
+	    position: relative;
+	    background: linear-gradient(45deg, gold, fuchsia);
+	    padding: 4px;
+	    border-radius: 100%;
+	}
+
+/*video*/
+	.videoku{
+		isolation: isolate;
+	}	
+	video{
+		border-radius: 3%
+	}
+
+/*footer*/
+	footer{
+		isolation: isolate;
+		}
+
+/*typografi*/
+	h1,h2,h3,h4,h5,h6{
+		isolation: isolate;
+	}
+
+/*scroll*/
+	.scroll {
+		cursor: pointer;
+	}
